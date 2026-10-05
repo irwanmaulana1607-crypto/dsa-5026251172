@@ -22,7 +22,7 @@ public abstract class PrintJob implements Chargeable {
         return pages;
     }
 
-    @Override
+   
     public abstract int calculateCharge();
 
     public int calculateCharge(int copies) {
